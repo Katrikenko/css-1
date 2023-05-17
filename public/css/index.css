@@ -68,7 +68,7 @@
 }
 
 .task_5 p {
-  visibility: hidden;
+  display: none;
 }
 
 .task_6 h1 {
@@ -96,7 +96,6 @@
 }
 
 .task_8 div {
-  /* display: none; */
   visibility: hidden;
 }
 
@@ -112,16 +111,16 @@
 }
 
 .task_9 h1 {
-  white-space: nowrap;
+  overflow-wrap: normal;
   word-spacing: 30px;
 }
 
 .task_9 div {
-  hyphens: manual;
+  hyphens: auto;
 }
 
 .task_9 p {
-  overflow-wrap: anywhere;
+  word-break: break-all;
 }
 
 .task_9 textarea {
